@@ -58,10 +58,6 @@ export default {
   				standard: 'hsl(var(--tier-standard))',
   				'standard-foreground': 'hsl(var(--tier-standard-foreground))',
   			},
-  				'base-foreground': 'hsl(var(--tier-base-foreground))',
-  				standard: 'hsl(var(--tier-standard))',
-  				'standard-foreground': 'hsl(var(--tier-standard-foreground))',
-  			},
   			sidebar: {
   				DEFAULT: 'hsl(var(--sidebar-background))',
   				foreground: 'hsl(var(--sidebar-foreground))',
