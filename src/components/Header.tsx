@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button";
 import { Wallet } from "lucide-react";
+import { ConnectButton } from "@mysten/dapp-kit-react";
 
 const Header = () => {
   return (
@@ -9,13 +9,14 @@ const Header = () => {
           <div className="flex h-9 w-9 items-center justify-center rounded-lg gradient-premium">
             <span className="text-lg font-bold text-primary-foreground">S</span>
           </div>
-          <span className="font-display text-xl font-bold text-foreground">SuiCredit</span>
+          <span className="font-display text-xl font-bold text-foreground">
+            SuiCredit
+          </span>
         </div>
-        
-        <Button variant="outline" size="sm" className="gap-2">
+        <ConnectButton className="gap-2">
           <Wallet className="h-4 w-4" />
           Connect Wallet
-        </Button>
+        </ConnectButton>
       </div>
     </header>
   );

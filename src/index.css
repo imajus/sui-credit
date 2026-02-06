@@ -78,6 +78,20 @@
   }
 }
 
+/* dApp Kit compatibility - explicit HSL values */
+mysten-dapp-kit-connect-button,
+mysten-dapp-kit-connect-modal {
+  --background: hsl(222 47% 6%);
+  --foreground: hsl(210 40% 98%);
+  --popover: hsl(222 47% 12%);
+  --popover-foreground: hsl(210 40% 98%);
+  --primary: hsl(200 98% 45%);
+  --primary-foreground: hsl(222 47% 6%);
+  --border: hsl(215 20% 18%);
+  --muted: hsl(215 20% 25%);
+  --muted-foreground: hsl(215 20% 65%);
+}
+
 @layer base {
   * {
     @apply border-border;
