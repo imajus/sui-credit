@@ -103,8 +103,10 @@
   }
 
   .gradient-premium-text {
-    @apply bg-clip-text text-transparent;
     background: linear-gradient(135deg, hsl(var(--tier-premium-start)) 0%, hsl(var(--tier-premium-end)) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .glow-primary {
